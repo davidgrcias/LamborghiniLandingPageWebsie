@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #b3b5b7;
+  text-decoration: none;
+}
+
+body{
+  background: #141313;
+}
+/* nav */
+nav{
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  align-items: center;
+  padding: 0px 6%;
+}
+
+nav .left h3{
+  color: #efd50c;
+}
+
+nav .right a{
+  font-size: 18px;
+  padding: 20px;
+  font-weight: bold;
+}
+/* nav end */
+
+/* container */
+.container{
+  max-width: 750px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container .top h1{
+  font-weight: 900;
+  letter-spacing: 4px;
+  font-size: 105px;
+  user-select: none;
+}
+
+.container .mid{
+  margin-top: -40px;
+}
+
+.container .bottom{
+  display: flex;
+}
+
+.container .bottom .left{
+}
+
+.container .bottom .right{ /* ini dulu */
+  display: flex;
+}
+
+.container .bottom .left .top h2{
+  color: #efd50c;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.container .bottom .left .bottom p{
+  font-size: 18px;
+}
+
+.container .bottom .right .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .bottom .right .box{
+  border-radius: 15px;
+  box-shadow: 3px 8px 8px 6px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .bottom .right .big{
+  height: 170px;
+  width: 180px;
+  margin: 0px 30px 0px 30px;
+}
+
+.container .bottom .right .big .top{
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.container .bottom .right .big .mid{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.container .bottom .right .small{
+  height: 80px;
+  width: 90px;
+}
+
+.container .bottom .right .small .top{
+  font-weight: 900;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 45px;
+}
+
+.container .bottom .right .small .mid{
+  font-size: 17px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.container .bottom .right .small .bottom{
+  font-size: 10px;
+}
+/* container end */
