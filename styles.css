@@ -204,7 +204,7 @@ nav label{
   input#open:checked ~ nav .right{
     display: flex;
     position: fixed;
-    top: 40px;
+    top: 50px;
     left: 0;
     right: 0;
     align-items: center;
