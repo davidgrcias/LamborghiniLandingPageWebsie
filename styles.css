@@ -203,7 +203,7 @@ nav label{
 
   input#open:checked ~ nav .right{
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 0;
     right: 0;
@@ -215,6 +215,7 @@ nav label{
     box-shadow: 0 10px 2px -2px #000;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    flex-wrap: wrap;
   }
 
   nav label{
